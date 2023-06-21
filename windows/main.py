@@ -40,7 +40,7 @@ def button_clicked():
 
 button = Button(window, text="Click Me", command=button_clicked,
     font=("Comic Sans MS", 24, "bold"), activebackground="red",
-    image=PhotoImage(file=icon), state=NORMAL, compound="top")
+     state=NORMAL, compound="top")
 button.pack()
 
 window.mainloop() # Keep the window on screen
